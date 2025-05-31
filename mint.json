@@ -12,15 +12,94 @@
   },
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Home",
       "pages": [
-        "introduction"
+        "home"
+      ]
+    },
+    {
+      "group": "User Guides",
+      "pages": [
+        {
+          "group": "Quick Start",
+          "icon": "rocket",
+          "pages": [
+            "user-guides/quick-start/qs-introduction",
+            "user-guides/quick-start/best-practices"
+          ]
+        },
+        {
+          "group": "Team",
+          "icon": "users",
+          "pages": [
+            "user-guides/team/manage",
+            "user-guides/team/usage",
+            "user-guides/team/settings"
+          ]
+        },
+        {
+          "group": "AI Agent",
+          "icon": "brain",
+          "pages": [
+            "user-guides/ai-agent/playground",
+            "user-guides/ai-agent/activity",
+            "user-guides/ai-agent/analytics",
+            "user-guides/ai-agent/sources",
+            "user-guides/ai-agent/actions",
+            "user-guides/ai-agent/contacts",
+            "user-guides/ai-agent/connect",
+            "user-guides/ai-agent/settings",
+            "user-guides/ai-agent/custom-domains",
+            "user-guides/ai-agent/models-comparison"
+          ]
+        }
       ]
     },
     {
       "group": "Integrations",
+      "icon": "plug",
       "pages": [
-        "integrations/whatsapp"
+        "integrations/bubble",
+        "integrations/framer",
+        "integrations/instagram",
+        "integrations/shopify",
+        "integrations/slack",
+        "integrations/stripe",
+        "integrations/whatsapp",
+        "integrations/wordpress",
+        "integrations/zapier"
+      ]
+    },
+    {
+      "group": "Developer Guides",
+      "icon": "code",
+      "pages": [
+        {
+          "group": "Javascript SDK",
+          "pages": [
+            "developer-guides/javascript-sdk/identity-verification",
+            "developer-guides/javascript-sdk/chatbot-event-listeners",
+            "developer-guides/javascript-sdk/client-side-custom-actions",
+            "developer-guides/javascript-sdk/control-widget",
+            "developer-guides/javascript-sdk/custom-initial-messages",
+            "developer-guides/javascript-sdk/client-side-custom-forms"
+          ]
+        },
+        {
+          "group": "API Reference",
+          "pages": [
+            "developer-guides/api/contacts",
+            "developer-guides/api/create-a-chatbot",
+            "developer-guides/api/get-chatbots"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "FAQ",
+      "icon": "question-circle",
+      "pages": [
+        "faq/frequently-asked-questions"
       ]
     }
   ],
