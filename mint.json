@@ -16,9 +16,15 @@
       "pages": [
         "introduction"
       ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/whatsapp"
+      ]
     }
   ],
   "footerSocials": {
-    "github": "https://github.com/heydoofus/docs"
+    "github": "https://github.com/HeyDoofus/docs"
   }
 }
