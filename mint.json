@@ -1,0 +1,24 @@
+{
+  "name": "Hey Doofus Docs",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#007bff",
+    "light": "#007bff",
+    "dark": "#0056b3"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/heydoofus/docs"
+  }
+}
